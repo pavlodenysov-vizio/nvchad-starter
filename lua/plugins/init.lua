@@ -35,4 +35,21 @@ return {
       -- require('lspconfig').clangd.setup {}
     end,
   },
+
+  {
+    "HiPhish/rainbow-delimiters.nvim",
+    lazy = false,
+    -- main = "rainbow-delimiters.setup",
+    -- opts = {
+    --   highlight = {
+    --       'RainbowDelimiterRed',
+    --       'RainbowDelimiterYellow',
+    --       'RainbowDelimiterBlue',
+    --       'RainbowDelimiterOrange',
+    --       'RainbowDelimiterGreen',
+    --       'RainbowDelimiterViolet',
+    --       'RainbowDelimiterCyan',
+    --   },
+    -- },
+  },
 }
